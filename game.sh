@@ -1,4 +1,7 @@
 #!/bin/bash
+# This is a script designed to switch between several preconfigured layouts as defined by the xboxdrv settings held within modules.
+
+# Give a list of available games
 echo What game would you like to play?
 echo 1\) Amnesia
 echo 2\) Braid
@@ -10,6 +13,8 @@ echo "99) None, give me my gamepad mode back."
 echo
 read userinput
 echo
+
+# Use basic logic to determine which module to load
 if [ "$userinput" == 1 -o "$userinput" == "Amnesia" -o "$userinput" == "amnesia" ]
 then echo "Your controller will now be configured for Amnesia."
 echo
