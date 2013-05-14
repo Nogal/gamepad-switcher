@@ -1,0 +1,41 @@
+[xboxdrv]
+ui-clear=true
+trigger-as-button = true
+
+[ui-axismap]
+x1=KEY_LEFT:KEY_RIGHT
+y1=KEY_UP:KEY_DOWN
+x2^dead:6000 = REL_X:750:-1
+y2^dead:6000 = REL_Y:750:-1
+
+# trigger^invert = rel-repeat:REL_WHEEL:1:50
+
+[ui-buttonmap]
+a = KEY_SPACE
+b = KEY_LEFTCTRL
+x = KEY_LEFTSHIFT
+y = KEY_F
+lt = BTN_RIGHT
+rt = BTN_LEFT
+
+rb = KEY_LEFTSHIFT
+lb = KEY_Q
+
+tl = KEY_LEFTSHIFT
+tr = KEY_R
+
+[ui-buttonmap]
+du = KEY_J
+dr = KEY_N
+dd = KEY_X
+dl = KEY_M
+
+# lt = KEY_VOLUMEDOWN
+# rt = KEY_VOLUMEUP
+
+[ui-buttonmap]
+start = KEY_ESC
+back  = KEY_TAB
+guide = KEY_ENTER
+
+# EOF #
